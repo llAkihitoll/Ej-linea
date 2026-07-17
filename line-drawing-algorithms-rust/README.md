@@ -1,10 +1,14 @@
 # Line Drawing Algorithms (Rust)
 
-Proyecto de la semana 2 del curso de Computación Gráfica. Implementa tres algoritmos de rasterización de líneas en Rust usando [raylib](https://github.com/raysan5/raylib):
+Actividad en clase de la semana 2 del curso de Computación Gráfica. Implementa tres algoritmos de rasterización de líneas en Rust usando [raylib]:
 
 - **Ecuación de la recta** (`y = mx + b`)
 - **DDA** (Digital Differential Analyzer)
 - **Bresenham** (solo aritmética entera, funciona en los 8 octantes)
+
+## Descripción
+
+El programa dibuja tres líneas con la misma pendiente usando cada uno de los tres algoritmos, una debajo de la otra, y exporta el resultado como una imagen BMP (`out.bmp`) para comparar visualmente el trazo de cada método.
 
 ## Estructura
 
